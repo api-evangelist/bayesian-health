@@ -1,7 +1,28 @@
 aid: bayesian-health
 name: Bayesian Health
-description: Bayesian Health is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Bayesian Health is a real-time clinical intelligence company whose adaptive AI
+  platform monitors hospitalized patients continuously inside the electronic
+  health record, surfacing only the patients who need attention and giving
+  clinicians evidence-based guidance to act. Its flagship Targeted Real-Time
+  Early Warning System (TREWS) reads full patient charts — labs, vitals, and
+  clinical notes — to detect sepsis and other deterioration hours earlier while
+  cutting alert volume, and in May 2026 became the first-ever FDA-cleared
+  continuous AI sepsis monitor. Founded by Johns Hopkins professor Suchi Saria,
+  the company deploys through direct EHR partnerships with Epic and Cerner
+  rather than a public developer API, and is backed by a16z.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/4rMdUmG0MtMBv3f5fYnSWPCQefA.png
 url: https://raw.githubusercontent.com/api-evangelist/bayesian-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,53 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none-public
+x-integration-model: ehr-embedded
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Health
+- Healthcare
+- Clinical AI
+- Artificial Intelligence
+- Machine Learning
+- Sepsis
+- Patient Monitoring
+- Clinical Decision Support
+- EHR
+- FHIR
+- Interoperability
 apis: []
+common:
+- type: DomainSecurity
+  url: security/bayesian-health-domain-security.yml
+- type: Website
+  url: https://www.bayesianhealth.com/
+- type: About
+  url: https://www.bayesianhealth.com/about
+- type: Platform
+  url: https://www.bayesianhealth.com/platform
+- type: Blog
+  url: https://www.bayesianhealth.com/insights
+- type: Support
+  url: https://www.bayesianhealth.com/contact
+- type: PrivacyPolicy
+  url: https://www.bayesianhealth.com/legal-pages/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/bayesianhealth
+- type: LinkedIn
+  url: https://www.linkedin.com/company/bayesian-health
+- type: Careers
+  url: https://jobs.ashbyhq.com/bayesianhealth
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
