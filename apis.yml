@@ -11,6 +11,17 @@ description: >-
   continuous AI sepsis monitor. Founded by Johns Hopkins professor Suchi Saria,
   the company deploys through direct EHR partnerships with Epic and Cerner
   rather than a public developer API, and is backed by a16z.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
